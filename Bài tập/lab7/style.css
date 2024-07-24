@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    background-color: #5cc02e;
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.1fr 0.3fr ;
+    text-align: center;
+    color: #ffffff;
+}
+
+i {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.n,.a {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}

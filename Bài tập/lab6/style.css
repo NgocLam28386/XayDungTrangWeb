@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:Pattaya;
+    src:url(/Pattaya/Pattaya-Regular.ttf);
+}
+@font-face{
+    font-family:Noto_Sans;
+    src:url(/Noto_Sans/NotoSans-LightItalic.ttf)
+}
+.all{
+    width: 860px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text1 {
+    font-family:Pattaya;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.text2{
+    font-family:'Pattaya';
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.text3{
+    font-family:Noto_Sans;
+   margin-top: 20px;
+   font-size: 14px;
+}
+.text4{
+    font-family:Noto_Sans;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.img1{
+    text-align: center;
+}
+.img1 img{
+    margin-bottom: 15px;
+}
+.money{
+    font-size: 30px;
+    margin-top: 10px;
+    color: red;
+}
+.img2{
+    margin-top: 15px ;
+}
+.img2 p{
+    font-size: 20px;
+}
+
+.a{
+    font-family:Pattaya;
+    color: #4c7861;
+    font-family:'Pattaya';
+    margin-bottom: 10px;
+}
+.b{
+    font-family:Pattaya;
+    font-family:'Pattaya';
+    margin-bottom: 10px;
+}
+.c{
+    font-family:Pattaya;
+    font-family:'Pattaya';
+    margin-bottom: 10px;
+}
+.d{
+    font-family:Pattaya;
+    font-family:'Pattaya';
+    margin-bottom: 10px;
+}
